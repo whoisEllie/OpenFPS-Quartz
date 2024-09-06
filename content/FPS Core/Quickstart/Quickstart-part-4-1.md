@@ -9,6 +9,7 @@ If you haven't got your own set of animations and weapons to use with FPS Core, 
 
 You can download the first set of animations, as well as the weapon model below!
 
+![[FPS Core Animation Pack.zip]]
 
 This folder is broken down into three 'sets' of content. Firstly, you have the meshes, found in the `Models` folder. These should be imported separately, and first. Make sure that their skeleton slot is empty, so that they import their own skeleton.
 

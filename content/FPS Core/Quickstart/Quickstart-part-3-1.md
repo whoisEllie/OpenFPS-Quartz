@@ -35,6 +35,7 @@ However, the principles we cover will be applicable to any sort of interaction i
 
 There's an image texture i'll be using in this tutorial in order to spice up the visuals, which you can as always download here:
 
+![[PickupIcon.zip]]
 
 Let's get started by adding an image to our canvas. Just drag it in from the palette.
 

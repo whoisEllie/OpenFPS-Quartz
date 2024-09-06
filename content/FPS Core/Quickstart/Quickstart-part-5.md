@@ -12,7 +12,7 @@ Now that we've set up our weapon systems, it's time to make it so that we can ac
 
 Like with previous tutorials, this one is reliant on some assets! You're going to need a set of models to represent the various types of ammo box and their various states. You can find the assets that i'm going to be using today at the link below!
 
-[Ammo Pickup Models](https://emmadocs.dev/wp-content/uploads/2022/10/AmmoPickupModels.zip)[Download](https://emmadocs.dev/wp-content/uploads/2022/10/AmmoPickupModels.zip)
+![[FPS Core Ammo Pickup Model Pack.zip]]
 
 If you'd like to use your own models, the system is quite flexible, as models aren't really used for anything except display purposes. For the best results, i'd recommend having multiple models for different ammunition amounts, as well as having full/empty versions of the amount-specific models. However, this is just for aesthetic reasons, and if you really want, you can use the same model for every option and the functionality will be the same!
 

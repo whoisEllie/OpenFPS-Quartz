@@ -33,7 +33,7 @@ Opening up `BP_Button`, you'll notice that there is already a mesh created, and 
 
 Let's set up our button first! If you'd like to follow along exactly, you can grab the button I've created from the link below:
 
-> [!TODO] Add Download
+![[Button-1.zip]]
 
 If you set the materials up and drag it into the engine, you should see this:
 
