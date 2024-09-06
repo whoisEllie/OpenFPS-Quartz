@@ -11,11 +11,6 @@ tags:
   - "line-trace"
   - "quick-fix"
 ---
-
-0.1.8
-
-The most recent confirmed working version for this guide
-
 In certain cases, it's possible that you might run into issues where it looks like your weapon isn't firing properly, even if you've done everything right when setting up the plugin.
 
 The first thing to do is to open up your weapon blueprint. If you've come from [QuickStart! Part 4](https://emmadocs.dev/fps-core/quickstart-part-4-adding-weapons-and-animations/), you'll likely have called this `BP_FPSCoreGun`. Inside, enable `Show Debug` and `Draw Obstructive Debugs`.

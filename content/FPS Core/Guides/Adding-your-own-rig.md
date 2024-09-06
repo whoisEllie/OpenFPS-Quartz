@@ -8,11 +8,6 @@ tags:
   - "guides"
   - "rig"
 ---
-
-0.1.4
-
-The most recent confirmed working version for this guide
-
 FPS Core was built to be flexible with the types of rigs that it accepts, but it has a few requirements for proper compatibility with all of FPS Core's features.
 
 ## Component Heirarchy

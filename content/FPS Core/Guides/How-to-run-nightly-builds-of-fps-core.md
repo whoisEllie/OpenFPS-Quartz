@@ -8,7 +8,6 @@ tags:
   - "guides"
   - "source-code"
 ---
-
 FPS Core is available on the marketplace, like most other plugins, and that is the recommended way of accessing it for most users. You're only going to be able to access the most stable updates, with completed and documented features.
 
 However, some users, especially those comfortable with C++ may with to have a more direct, bleeding-edge version of FPS core running in their projects.

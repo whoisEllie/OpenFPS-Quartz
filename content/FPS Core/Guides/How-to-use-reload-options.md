@@ -8,11 +8,6 @@ tags:
   - "customisation"
   - "reload"
 ---
-
-0.1.8
-
-The most recent confirmed working version for this guide
-
 With v0.1.5, FPS Core received a new set of features designed to give you more control over reloading behaviour. In this guide, we'll go over them, see how they can be used and how you can make the most of them for your project!
 
 The reload behaviour options are designed to help you handle situations in which the player tries to reload, but cannot, most likely due to being in a movement state (such as sprinting) which does not allow reloading.

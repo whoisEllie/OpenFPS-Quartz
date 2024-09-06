@@ -5,7 +5,6 @@ categories:
   - "fps-core"
   - "fps-core-quickstart"
 ---
-
 Now that we've set up our weapon systems, it's time to make it so that we can actually replenish our ammunition! FPS Core comes with an included AmmoPickup class that handles all of this for you, so let's learn how to set it up :D.
 
 > Make sure that prior to attempting this guide, you've completed **QuickStart! Part 1** and **Part 3**, as these include setup of the interaction component and character controller that are dependancies for this system to work.
