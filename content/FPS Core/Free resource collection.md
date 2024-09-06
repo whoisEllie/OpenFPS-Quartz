@@ -21,8 +21,7 @@ As they're scattered across multiple guides, you might struggle to find all the 
 
 ### **FPS Core Animation Pack** - [QuickStart! Part 4](https://emmadocs.dev/fps-core/quickstart-part-4-adding-weapons-and-animations/)/[4.1](https://emmadocs.dev/fps-core/quickstart-part-4-1-setting-up-the-included-weapon-and-animations/)
 
-[FPS Core Animation Pack](https://emmadocs.dev/wp-content/uploads/2022/09/FPS-Core-Animation-Pack.zip)[Download](https://emmadocs.dev/wp-content/uploads/2022/09/FPS-Core-Animation-Pack.zip)
-
+![[FPS Core Animation Pack.zip]]
 ### FPS Core Ammo Pickup Model Pack - [QuickStart! Part 5](https://emmadocs.dev/fps-core/quickstart-part-5-ammunition-pickups/)
 
 [Ammo Pickup Models](https://emmadocs.dev/wp-content/uploads/2022/10/AmmoPickupModels.zip)[Download](https://emmadocs.dev/wp-content/uploads/2022/10/AmmoPickupModels.zip)
