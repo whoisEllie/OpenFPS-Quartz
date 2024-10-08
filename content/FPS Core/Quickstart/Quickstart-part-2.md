@@ -73,4 +73,4 @@ FPS Core includes a guard-rail for situations like this, which checks the height
 
 If you're still having issues, don't hesitate to pop into the [support discord](https://discord.gg/MzxdZd2WqR) to get some help!
 
-The next part of **QuickStart!** covers setting up world interaction, and can be found [[Quickstart-part-3|here]].
+The next part of **QuickStart!** covers setting up world interaction, and can be found [[Quickstart-part-3-0|here]].

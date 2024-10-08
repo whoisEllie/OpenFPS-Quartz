@@ -9,6 +9,7 @@ tags:
   - quickstart
 Working version: v0.1.8-LTS
 ---
+
 If you're looking to get started with FPS Core as quickly as possible, you've come to the right place! This is the first in a series of writeups in which i'll teach you the basics of FPS Core, and how to get up and running with FPS Core as quickly as possible, so that you can focus on what matters - building your game!
 
 ## Creating our character
@@ -21,10 +22,8 @@ Right click in your content browser, and click 'Blueprint Class' in the popup to
 
 You'll see a popup like this, you'll want to hit the 'All Classes' dropdown, and type 'FPS' in the input field that appears.
 
-
 ![](images/Screenshot-2022-09-06-at-23.00.12.png)
 Don't worry if you don't see FPSCoreDevGameModeBase, this class only exists because my project is called 'FPSCoreDev'
-
 
 You'll see two important classes, `FPS Character` and `FPS Character Controller`. For now, let's create a new blueprint from `FPS Character`. Just click on the `FPS Character` class and press the blue 'select' button that shows up. Then, name your character something informative, i like to use `BP_FPSCharacter` in order to stay in line with Unreal Engine's [Coding Standard](https://docs.unrealengine.com/4.27/en-US/ProductionPipelines/DevelopmentSetup/CodingStandard/). You'll end up with the blueprint in your content browser, looking something like this :)
 
@@ -34,8 +33,7 @@ For the time being, let's leave our Character alone, and create a Character Cont
 
 ![](images/Screenshot-2022-09-06-at-23.06.02.png)
 
-You can name this one 'BP\_FPSCharacterController', of 'BP\_FPSCC' if you prefer.
-
+You can name this one 'BP_FPSCharacterController', of 'BP_FPSCC' if you prefer.
 
 ![](images/image-1-q1.png)
 
@@ -74,7 +72,6 @@ If you are greeted by a screen like this, just click the 'Open Full Blueprint Ed
 ![](images/Screenshot-2022-09-07-at-00.27.12-1024x666.png)
 
 In here, we need to set up our movement values. All the other necessary values are already set up for us, but if there are not set, our character won't be able to move. My recommendation would be to set them up as below, though of course you're free to customise these to your liking.
-
 
 ![](images/Screenshot-2022-09-07-at-00.30.26.png)
 
@@ -124,15 +121,15 @@ For both of these inputs, we need to change this from `Digital (bool)` to `Axis2
 
 ## Creating our Mapping Context
 
-Let's hop over into our Mappings folder and create an action mapping, also under the 'Input' category. In my case, i will call it MC\_Base. If you open MC\_Base, you'll find a blank screen staring back at you. Here, we'll need to add all of our input actions.
+Let's hop over into our Mappings folder and create an action mapping, also under the 'Input' category. In my case, i will call it MC_Base. If you open MC_Base, you'll find a blank screen staring back at you. Here, we'll need to add all of our input actions.
 
 ![](images/Screenshot-2022-09-07-at-00.49.27-1-1024x666.png)
 
-Add you inputs one by one by hitting the + button and filling out an input action. Once you've added all of them, it's time to set up the actions. For each action, add a control binding that you feel fits. Something like `Space Bar` for `IA_Jump`, etc. The only actions that we'll take a special look at are **IA\_Look** and **IA\_Move**. In the case of **IA\_Look**, it's relatively straightforward. Simply set it to `Mouse XY 2D-Axis`.
+Add you inputs one by one by hitting the + button and filling out an input action. Once you've added all of them, it's time to set up the actions. For each action, add a control binding that you feel fits. Something like `Space Bar` for `IA_Jump`, etc. The only actions that we'll take a special look at are **IA_Look** and **IA_Move**. In the case of **IA_Look**, it's relatively straightforward. Simply set it to `Mouse XY 2D-Axis`.
 
 ![](images/image-3-q1.png)
 
-**IA\_Move** will be slightly more complicated. I'm going to add keyboard controls here, so add W, A, S and D to the input. Now we need to tell the input how to modify these keys in order for them to fit appropriately into their relevant axes. To do this, we'll use the new modifiers feature. We want W and S to act on their own axis, so we'll assign them the `Swizzle Input Axis Values` modifier.
+**IA_Move** will be slightly more complicated. I'm going to add keyboard controls here, so add W, A, S and D to the input. Now we need to tell the input how to modify these keys in order for them to fit appropriately into their relevant axes. To do this, we'll use the new modifiers feature. We want W and S to act on their own axis, so we'll assign them the `Swizzle Input Axis Values` modifier.
 
 Then, we want S to be backwards, so a negative value, and A to be left, so also a negative value (since UE uses a right vector as positive). As such, we'll give both A and S the `Negate` modifier. You should be left with something that looks like this:
 
